@@ -70,5 +70,20 @@
     <div id="blob"></div>
     <div id="blur"></div>
     <h1>A BLOB</h1>
+    <script>
+      const blob = document.getElementById("blob");
+
+      window.onpointermove = (event) => {
+        const { clientX, clientY } = event;
+
+        blob.animate(
+          {
+            left: `${clientX}px`,
+            top: `${clientY}px`,
+          },
+          { duration: 3000, fill: "forwards" }
+        );
+      };
+    </script>
   </body>
 </html>
