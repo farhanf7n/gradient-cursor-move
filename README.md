@@ -1,6 +1,6 @@
 ## A Blob which follows the mouse cursor
 
-- I made this practice app using HTML, CSS and somg JS.
+- I made this practice app using HTML, CSS and some JS.
 - I used "onpointermove" to find the mouse cursor.
 - Then i used "animate function" to add some delay and move the blob where the mouse is.  
 
